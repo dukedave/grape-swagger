@@ -30,7 +30,7 @@ describe 'Form Params' do
       end
 
       params do
-        requires :required_group, type: Hash do
+        requires :required_group do
           requires :required_param_1
           requires :required_param_2
         end
